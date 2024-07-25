@@ -4,7 +4,7 @@ import os
 # Module for reading CSV files
 import csv
 
-csvpath = os.path.join('PyPoll','Resources', 'election_data.csv')
+csvpath = os.path.join('Resources', 'election_data.csv')
 
 #Initialize Variables
 total_votes=0
@@ -35,7 +35,7 @@ with open(csvpath) as csvfile:
         candidate_votes[candidate_name]=candidate_votes[candidate_name]+1
 
 # Export to text file
-output_path = os.path.join("PyPoll", "analysis", "election_analysis.txt")
+output_path = os.path.join("Analysis", "election_analysis.txt")
 
 # Ensure the directory exists
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
