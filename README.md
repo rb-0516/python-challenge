@@ -1,2 +1,2 @@
 # python-challenge
-PyBank: code written from class materials, Perplexity.ai
+PyBank: code written with assistance from class materials, Bootcamp Tutors, Perplexity.ai
