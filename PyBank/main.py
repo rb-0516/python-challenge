@@ -65,7 +65,7 @@ Greatest Decrease in Profits: {greatest_decrease['date']} (${greatest_decrease['
 print(analysis)
 
 # Export to text file
-output_path = os.path.join("PyBank", "analysis", "financial_analysis.txt")
+output_path = os.path.join("Analysis", "financial_analysis.txt")
 
 # Ensure the directory exists
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
